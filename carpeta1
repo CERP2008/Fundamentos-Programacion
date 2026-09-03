@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN5rDMH1+FMc6+GJpowQVea",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/CERP2008/Fundamentos-Programacion/blob/main/carpeta1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "bcb7b26b"
+      },
+      "source": [
+        "## Calcular el área de un triángulo"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "052bd595",
+        "outputId": "50eb3278-d9ac-4309-cfcd-5c15d5786658"
+      },
+      "source": [
+        "# Solicitar la base y la altura al usuario\n",
+        "base = float(input(\"Introduce la longitud de la base del triángulo: \"))\n",
+        "altura = float(input(\"Introduce la altura del triángulo: \"))\n",
+        "\n",
+        "# Calcular el área\n",
+        "area = (base * altura) / 2\n",
+        "\n",
+        "# Mostrar el resultado\n",
+        "print(f\"El área del triángulo es: {area}\")"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Introduce la longitud de la base del triángulo: 4\n",
+            "Introduce la altura del triángulo: 6\n",
+            "El área del triángulo es: 12.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
