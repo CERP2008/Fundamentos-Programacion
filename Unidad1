@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyM0NkcLPoGC0VGYr8lz7+bz",
+      "authorship_tag": "ABX9TyPAjGG4ghV+9Ye/avPU9w52",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -148,7 +148,7 @@
         "id": "WPUu2OMFV6A_",
         "outputId": "fdf4b783-2107-4487-9822-c63e9d78e009"
       },
-      "execution_count": 2,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -172,7 +172,7 @@
         "id": "vJIib8USWhKn",
         "outputId": "34069127-82de-4bd0-92ef-b5c8a7b8952d"
       },
-      "execution_count": 5,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -198,7 +198,7 @@
         "id": "vWUHF4znW_n3",
         "outputId": "84e19e0f-de9c-4a1c-9f6d-f6cd1a197df5"
       },
-      "execution_count": 8,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -225,7 +225,7 @@
         "id": "5Hebh-_cXeeQ",
         "outputId": "639a3d9f-edca-4289-9da1-838d76c9c4c6"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -252,7 +252,7 @@
         "id": "7WFzEqSNXwIi",
         "outputId": "fa188504-4e02-4f8e-c832-9af3b4afd8a2"
       },
-      "execution_count": 10,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -287,7 +287,7 @@
         "id": "3gtyXOHPaX94",
         "outputId": "1888d1ff-51aa-4b5a-e861-984a7e23dca0"
       },
-      "execution_count": 20,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -305,8 +305,7 @@
         "# instruction for sirve para repetir instruciones\n",
         "tabla = 7\n",
         "for i in range (10):\n",
-        "  print(tabla, \"*\", i, \"=\", tabla*i)\n",
-        ""
+        "  print(tabla, \"*\", i, \"=\", tabla*i)\n"
       ],
       "metadata": {
         "colab": {
@@ -315,7 +314,7 @@
         "id": "RVsIwqjcbbVg",
         "outputId": "92567003-37aa-446c-c221-b330ac0e6b34"
       },
-      "execution_count": 21,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -341,17 +340,16 @@
         "# instruction for sirve para repetir instruciones\n",
         "tabla = 7\n",
         "for i in range (10, 100, 5):\n",
-        "  print(tabla, \"*\", i, \"=\", tabla*i)\n",
-        ""
+        "  print(tabla, \"*\", i, \"=\", tabla*i)\n"
       ],
       "metadata": {
-        "id": "RJtjNcAPdQfB",
-        "outputId": "d4bcdd4f-e33b-4cb3-f6a1-c0f2843748a7",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "RJtjNcAPdQfB",
+        "outputId": "d4bcdd4f-e33b-4cb3-f6a1-c0f2843748a7"
       },
-      "execution_count": 22,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -378,6 +376,158 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tabla = int(input(\"Que tabal de multiplicar quieres? \"))\n",
+        "inicio = int(input(\"Dame el limite inicial \"))\n",
+        "final = int(input(\"Dame el limite final \"))\n",
+        "incremento = int(input(\"Dame el  numero de incremento \"))\n",
+        "for i in range (inicio, final, incrementos):\n",
+        "  print(tabla, \"*\", i, \"=\", tabla*i)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 356
+        },
+        "id": "_lSgN9oQdgNW",
+        "outputId": "87b05fa0-1e69-4265-9841-5baf638c9c74"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "Interrupted by user",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_2844/1689964529.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mtabla\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Que tabal de multiplicar quieres? \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m \u001b[0minicio\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Dame el limite inicial \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0mfinal\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Dame el limite final \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mincremento\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Dame el  numero de incremento \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0;32mfor\u001b[0m \u001b[0mi\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mrange\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0minicio\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfinal\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mincrementos\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.13/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m   1175\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1176\u001b[0m             )\n\u001b[0;32m-> 1177\u001b[0;31m         return self._input_request(\n\u001b[0m\u001b[1;32m   1178\u001b[0m             \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mprompt\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1179\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"shell\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.13/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m   1217\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1218\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1219\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1220\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1221\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "edad = int(input(\"dame tu edad \"))\n",
+        "if edad <= 65:\n",
+        "  print(\"eres un adulto mayor\")\n",
+        "elif edad <= 30:\n",
+        "  print(\"eres un adulto joven\")\n",
+        "elif edad <= 18:\n",
+        "  print(\"eres un adolecente\")\n",
+        "elif edad <= 10:\n",
+        "  print(\"eres un niño\")"
+      ],
+      "metadata": {
+        "id": "k3ae7F_1fjbQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = 1\n",
+        "while numero <= 10:\n",
+        "  print(numero)\n",
+        "  print(\"Dentro del while\")\n",
+        "  numero = numero + 1\n",
+        "print(\"Fuera del while\")\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f6Mydt9WhwIf",
+        "outputId": "6e9278f8-cf88-47f2-dc8e-65afaa99c9e2"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "Dentro del while\n",
+            "2\n",
+            "Dentro del while\n",
+            "3\n",
+            "Dentro del while\n",
+            "4\n",
+            "Dentro del while\n",
+            "5\n",
+            "Dentro del while\n",
+            "6\n",
+            "Dentro del while\n",
+            "7\n",
+            "Dentro del while\n",
+            "8\n",
+            "Dentro del while\n",
+            "9\n",
+            "Dentro del while\n",
+            "10\n",
+            "Dentro del while\n",
+            "Fuera del while\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#while para validar datos\n",
+        "tabla = int(input(\"Que tabla de multiplicar quieres? \"))\n",
+        "inicio = int(input(\"Dame el limite inicial \"))\n",
+        "final = int(input(\"Dame el limite final \"))\n",
+        "incremento = int(input(\"Dame el  numero de incremento \"))\n",
+        "#agregamos while para que valide que el valor iniceial sea mayor que el final, de lo contrario se repetira me pedira indefinadamente el valor final hasta que se mayor\n",
+        "while inicio >=final:\n",
+        "  print(\"el limite final debe ser mayor al inicial\")\n",
+        "  final = int(input(\"Dame el limite final \"))\n",
+        "\n",
+        "for i in range (inicio, final, incrementos):\n",
+        "  print(tabla, \"*\", i, \"=\", tabla*i)"
+      ],
+      "metadata": {
+        "id": "2kb8ALQCjpeH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Listas en Phyton**"
+      ],
+      "metadata": {
+        "id": "Qdup-VODmjMH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "alumnos = [\"ana\", \"luis\", ]"
+      ],
+      "metadata": {
+        "id": "sG6GTqDFm0J2"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "cZb0v2ICmhb_"
+      }
     }
   ]
 }
