@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPAjGG4ghV+9Ye/avPU9w52",
+      "authorship_tag": "ABX9TyORlB6wOJjTvndUeoj7dIH8",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -395,7 +395,7 @@
         "id": "_lSgN9oQdgNW",
         "outputId": "87b05fa0-1e69-4265-9841-5baf638c9c74"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "error",
@@ -439,8 +439,7 @@
         "  print(numero)\n",
         "  print(\"Dentro del while\")\n",
         "  numero = numero + 1\n",
-        "print(\"Fuera del while\")\n",
-        ""
+        "print(\"Fuera del while\")\n"
       ],
       "metadata": {
         "colab": {
@@ -449,7 +448,7 @@
         "id": "f6Mydt9WhwIf",
         "outputId": "6e9278f8-cf88-47f2-dc8e-65afaa99c9e2"
       },
-      "execution_count": 12,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -505,7 +504,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "**Listas en Phyton**"
+        ":**Listas en Phyton**"
       ],
       "metadata": {
         "id": "Qdup-VODmjMH"
@@ -514,20 +513,342 @@
     {
       "cell_type": "code",
       "source": [
-        "alumnos = [\"ana\", \"luis\", ]"
+        "#podemos acceder a cada elemto o item de la lista atraves del indice o su posicion las listas siempre inician en la posicicon 0\n",
+        "alumnos = [\"ana\", \"luis\", \"Carlos\"]\n",
+        "print(alumnos)\n",
+        "print(alumnos[0])\n",
+        "print(alumnos[1])"
       ],
       "metadata": {
-        "id": "sG6GTqDFm0J2"
+        "id": "sG6GTqDFm0J2",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "4c0957c6-05ed-46bc-fd3a-75aaf246fcd0"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['ana', 'luis', 'Carlos']\n",
+            "Carlos\n",
+            "luis\n"
+          ]
+        }
+      ]
     },
     {
-      "cell_type": "markdown",
-      "source": [],
+      "cell_type": "code",
+      "source": [
+        "#podemos modificar el valor de un elemto de la lista usando el nombre de la lista y el indice y le agregamos el nuevo valor\n",
+        "print(alumnos)\n",
+        "alumnos[1] = \"juan\"\n",
+        "print(alumnos)\n"
+      ],
       "metadata": {
-        "id": "cZb0v2ICmhb_"
-      }
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q3URAQaBopXd",
+        "outputId": "eb920806-02a3-490b-e8b5-11898be03a82"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['ana', 'luis', 'Carlos']\n",
+            "['ana', 'juan', 'Carlos']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#podemos especificar indices negativos y cuyando se ponen valores negativos se agarra desde el final y se empieza con el -1\n",
+        "print(alumnos[-1])\n",
+        "print(alumnos[-2])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "G1nEhuPWo8WU",
+        "outputId": "358112be-ed87-4b84-cc98-72cf4ae89d63"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Carlos\n",
+            "juan\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#insert\n",
+        "#con esto puedes agregar un elemento a cualquier parte de la lista\n",
+        "print(alumnos)\n",
+        "alumnos.insert(2, \"marciano\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VvVpWZFiqzXV",
+        "outputId": "c6caed0b-92e6-4fde-e70a-e07a3ed2f9eb"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['ana', 'juan', 'Carlos', 'pedro']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#metodo append\n",
+        "#este metodo agrega un elemento al final de la lista\n",
+        "print(alumnos)\n",
+        "alumnos.append(\"pedro\")\n",
+        "print(alumnos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Tx2qFOM9qCPl",
+        "outputId": "25b40465-4061-4025-e3e6-8f3fddc6afa5"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['ana', 'juan', 'Carlos']\n",
+            "['ana', 'juan', 'Carlos', 'pedro']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#borrar elementos remove()\n",
+        "#borra un elemento de la lista especificando el valor si existe valores repetidos, borra el primer valor que encuentre\n",
+        "print(alumnos)\n",
+        "alumnos.remove(\"marciano\")\n",
+        "print(alumnos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V-9Tvn5yrZpM",
+        "outputId": "1685d8a8-5202-410e-bbbf-491a54e7c195"
+      },
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['ana', 'juan', 'marciano', 'Carlos', 'pedro']\n",
+            "['ana', 'juan', 'Carlos', 'pedro']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "print(alumnos[2])\n",
+        "print(alumnos[4])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 176
+        },
+        "id": "YkAfxvESsk77",
+        "outputId": "4c478172-88a4-4ec9-e69b-5e2b6a29b61e"
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Carlos\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "IndexError",
+          "evalue": "list index out of range",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mIndexError\u001b[0m                                Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_951/1870165019.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0malumnos\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m2\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0malumnos\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m4\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mIndexError\u001b[0m: list index out of range"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#pop\n",
+        "#me permite borra un elemto de la lista especificando su posicion\n",
+        "print(alumnos)\n",
+        "alumnos.pop(2)\n",
+        "print(alumnos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eUGvSHEmtLL-",
+        "outputId": "cbb472db-5c74-44e6-9683-dde0abf52001"
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['ana', 'juan', 'marciano', 'Carlos', 'pedro']\n",
+            "['ana', 'juan', 'Carlos', 'pedro']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#permite borrar un elemto de la lista especificandoo se posicion\n",
+        "print(alumnos)\n",
+        "del alumnos[2]\n",
+        "print(alumnos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5h2T3kJOtsks",
+        "outputId": "c83f07e6-6084-44dd-83eb-21cb0e5abfaf"
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['ana', 'juan', 'Carlos', 'pedro']\n",
+            "['ana', 'juan', 'pedro']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#len\n",
+        "#permite saber cuantos elemetos tiene tiene una lista\n",
+        "print(\"numero de elementos en la lista\", len(alumnos))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wQfdeOCfuXRd",
+        "outputId": "adc66aa2-90ac-4a4d-ea16-630800c76288"
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "numero de elementos en la lista 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Recorrer una lista de valores hacia abajo con for\n",
+        "for alumno in alumnos:\n",
+        "  print(alumno)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PT7NITwhu6pe",
+        "outputId": "fa5f6a4a-19b4-4678-9d23-bfc661a228d4"
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ana\n",
+            "juan\n",
+            "pedro\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(alumnos)\n",
+        "for x in alumnos:\n",
+        "  print(x)\n",
+        "  if x == \"Carlos\":\n",
+        "    print(\"encontramos a Carlos\")\n",
+        "    break\n",
+        "    #break forza a salir de un ciclo"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zVLVCp7TwKfF",
+        "outputId": "71226012-af6c-48dc-95fb-c1f60c1c11ca"
+      },
+      "execution_count": 40,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['ana', 'juan', 'pedro']\n",
+            "ana\n",
+            "juan\n",
+            "pedro\n"
+          ]
+        }
+      ]
     }
   ]
 }
