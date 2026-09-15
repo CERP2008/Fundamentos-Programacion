@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyORlB6wOJjTvndUeoj7dIH8",
+      "authorship_tag": "ABX9TyPMRJSGQLdKOMUNioEEPZx3",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -25,6 +25,26 @@
       "source": [
         "<a href=\"https://colab.research.google.com/github/CERP2008/Fundamentos-Programacion/blob/main/Unidad1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Inegenieria en Sistemas Computacionales**\n",
+        "\n",
+        "## **Fundamentos de Programacion**\n",
+        "\n",
+        "## **Unidad 1**\n",
+        "\n",
+        "### Practica 1: Intoduccion al lenguaje de Progrmacion Phyton\n",
+        "\n",
+        "Docente: **Jose Gabriel Rodriguez Rivas**\n",
+        "\n",
+        "Alumno: **Carlos Eduardo Rodriguez Perez**\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "XJhI_YRvfsJU"
+      }
     },
     {
       "cell_type": "code",
@@ -526,7 +546,7 @@
         },
         "outputId": "4c0957c6-05ed-46bc-fd3a-75aaf246fcd0"
       },
-      "execution_count": 6,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -554,7 +574,7 @@
         "id": "Q3URAQaBopXd",
         "outputId": "eb920806-02a3-490b-e8b5-11898be03a82"
       },
-      "execution_count": 7,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -580,7 +600,7 @@
         "id": "G1nEhuPWo8WU",
         "outputId": "358112be-ed87-4b84-cc98-72cf4ae89d63"
       },
-      "execution_count": 8,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -607,7 +627,7 @@
         "id": "VvVpWZFiqzXV",
         "outputId": "c6caed0b-92e6-4fde-e70a-e07a3ed2f9eb"
       },
-      "execution_count": 35,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -634,7 +654,7 @@
         "id": "Tx2qFOM9qCPl",
         "outputId": "25b40465-4061-4025-e3e6-8f3fddc6afa5"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -662,7 +682,7 @@
         "id": "V-9Tvn5yrZpM",
         "outputId": "1685d8a8-5202-410e-bbbf-491a54e7c195"
       },
-      "execution_count": 34,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -689,7 +709,7 @@
         "id": "YkAfxvESsk77",
         "outputId": "4c478172-88a4-4ec9-e69b-5e2b6a29b61e"
       },
-      "execution_count": 31,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -727,7 +747,7 @@
         "id": "eUGvSHEmtLL-",
         "outputId": "cbb472db-5c74-44e6-9683-dde0abf52001"
       },
-      "execution_count": 36,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -754,7 +774,7 @@
         "id": "5h2T3kJOtsks",
         "outputId": "c83f07e6-6084-44dd-83eb-21cb0e5abfaf"
       },
-      "execution_count": 37,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -780,7 +800,7 @@
         "id": "wQfdeOCfuXRd",
         "outputId": "adc66aa2-90ac-4a4d-ea16-630800c76288"
       },
-      "execution_count": 38,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -805,7 +825,7 @@
         "id": "PT7NITwhu6pe",
         "outputId": "fa5f6a4a-19b4-4678-9d23-bfc661a228d4"
       },
-      "execution_count": 39,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -836,7 +856,7 @@
         "id": "zVLVCp7TwKfF",
         "outputId": "71226012-af6c-48dc-95fb-c1f60c1c11ca"
       },
-      "execution_count": 40,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -846,6 +866,150 @@
             "ana\n",
             "juan\n",
             "pedro\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Sistema de Prestamos V1\n",
+        "\n",
+        "#Lista de alumnos en el sistema\n",
+        "alumnos = [\"26\"]"
+      ],
+      "metadata": {
+        "id": "zfpY8hAqeDHd"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "mbsSwbUggTAZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# ============================================\n",
+        "# SISTEMA DE PRÉSTAMOS\n",
+        "# Versión 1 - Programación basica y uso de listas\n",
+        "# ============================================\n",
+        "\n",
+        "# Lista de alumnos activos en el sistema\n",
+        "alumnos = [ \"26040200\", \"26040201\", \"26040202\", \"26040203\", \"26040204\" ]\n",
+        "\n",
+        "# Cada valor en la lista de computadoras tiene su lista correspondiente con el\n",
+        "# aula donde esta ubicada, el software instalado y el estado de esa computadora\n",
+        "computadoras = [\"PC-LC1-01\", \"PC-LC1-02\", \"PC-LC1-03\",\n",
+        "                \"PC-LC2-01\", \"PC-LC2-02\", \"PC-LC2-03\",\n",
+        "                \"PC-LC3-01\", \"PC-LC3-02\", \"PC-LC3-03\", \"PC-LC3-04\"]\n",
+        "\n",
+        "aulas = [\"LC1\", \"LC1\", \"LC1\",\n",
+        "         \"LC2\", \"LC2\", \"LC2\",\n",
+        "         \"LC3\", \"LC3\", \"LC3\", \"LC3\"]\n",
+        "\n",
+        "software = [\"Python, VS Code\", \"Python, Java, VS Code\", \"AutoCAD, MATLAB\",\n",
+        "            \"Python, VS Code\", \"Python, Java, VS Code\", \"AutoCAD, MATLAB\",\n",
+        "            \"Python, VS Code\", \"Python, Java, VS Code\", \"AutoCAD, MATLAB\", \"Python, VS Code\" ]\n",
+        "\n",
+        "estados = [ \"Disponible\", \"Prestada\", \"Reservada\",\n",
+        "            \"Disponible\", \"Prestada\", \"Reservada\",\n",
+        "            \"Disponible\", \"Prestada\", \"Reservada\", \"Mantenimiento\" ]\n",
+        "\n",
+        "# MENÚ PRINCIPAL\n",
+        "# Usamos un ciclo While que se repetira indefinidamente hasta que el usuario\n",
+        "# teclee la opcion 7 (salir) o cualquier numero superior a 7\n",
+        "opcion = 0\n",
+        "while opcion <= 6:\n",
+        "    print(\"\\n===============================\")\n",
+        "    print(\"      SISTEMA DE PRÉSTAMOS\")\n",
+        "    print(\"===============================\")\n",
+        "    print(\"1. Consultar computadoras\")\n",
+        "    print(\"2. Buscar por software\")\n",
+        "    print(\"3. Solicitar préstamo\")\n",
+        "    print(\"4. Devolver computadora\")\n",
+        "    print(\"5. Crear reservación\")\n",
+        "    print(\"6. Agregar computadora\")\n",
+        "    print(\"7. Salir\")\n",
+        "    print(\"===============================\")\n",
+        "    opcion = int(input(\"Seleccione una opción: \"))\n",
+        "\n",
+        "    # 1. Consultar computadoras\n",
+        "    # si el usuario selecciono la opcion 1 se hace un ciclo (for) que recorre\n",
+        "    # toda la lista de computadoras e imprime los valores de las demás listas\n",
+        "    if opcion == 1:\n",
+        "        print(\"\\n--- COMPUTADORAS ---\")\n",
+        "        for i in range(len(computadoras)):\n",
+        "            print(\"Aula:\", aulas[i])\n",
+        "            print(\"ID:\", computadoras[i])\n",
+        "            print(\"Software:\", software[i])\n",
+        "            print(\"Estado:\", estados[i])\n",
+        "            print(\"-------------------------\")\n",
+        "      # 2. Buscar por software\n",
+        "    elif opcion == 2:\n",
+        "        programa = input(\"\\nIngrese el software que desea buscar: \")\n",
+        "        print(\"\\n--- RESULTADOS ---\")\n",
+        "        encontrado = False\n",
+        "        for i in range(len(computadoras)):\n",
+        "            # la funcion (lower) convierte a minuscula el texto, de esta forma\n",
+        "            # nos aseguramos que el texto a buscar y la informacion de las listas\n",
+        "            # este en minuscula y no tengamos problema de que no encunentra un programa\n",
+        "            # porque este escrito de forma diferente usando mayusculas y minusculas\n",
+        "            if programa.lower() in software[i].lower():\n",
+        "                print(\"ID:\", computadoras[i])\n",
+        "                print(\"Aula:\", aulas[i])\n",
+        "                print(\"Software:\", software[i])\n",
+        "                print(\"Estado:\", estados[i])\n",
+        "                encontrado = True\n",
+        "\n",
+        "        if encontrado == False:\n",
+        "            print(\"No se encontraron computadoras con ese software.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 564
+        },
+        "id": "09o6SAEVVVBD",
+        "outputId": "a4ae6cb4-962f-400e-d337-b1e7a16ed3c7"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "===============================\n",
+            "      SISTEMA DE PRÉSTAMOS\n",
+            "===============================\n",
+            "1. Consultar computadoras\n",
+            "2. Buscar por software\n",
+            "3. Solicitar préstamo\n",
+            "4. Devolver computadora\n",
+            "5. Crear reservación\n",
+            "6. Agregar computadora\n",
+            "7. Salir\n",
+            "===============================\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "Interrupted by user",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_3945/3868475971.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     41\u001b[0m     \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"7. Salir\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     42\u001b[0m     \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"===============================\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 43\u001b[0;31m     \u001b[0mopcion\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Seleccione una opción: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     44\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     45\u001b[0m     \u001b[0;31m# 1. Consultar computadoras\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.13/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m   1175\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1176\u001b[0m             )\n\u001b[0;32m-> 1177\u001b[0;31m         return self._input_request(\n\u001b[0m\u001b[1;32m   1178\u001b[0m             \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mprompt\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1179\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"shell\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.13/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m   1217\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1218\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1219\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1220\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1221\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
           ]
         }
       ]
