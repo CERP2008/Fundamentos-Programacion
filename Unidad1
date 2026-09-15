@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPMRJSGQLdKOMUNioEEPZx3",
+      "authorship_tag": "ABX9TyNy31aAJn7oa43oIgdWoa32",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -892,6 +892,26 @@
       },
       "execution_count": null,
       "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Inegenieria en Sistemas Computacionales**\n",
+        "\n",
+        "## **Fundamentos de Programacion**\n",
+        "\n",
+        "## **Unidad 1**\n",
+        "\n",
+        "### Sistema de gestion de prestamos y reservaciones de computadoras - Version 1\n",
+        "\n",
+        "Docente: **Jose Gabriel Rodriguez Rivas**\n",
+        "\n",
+        "Alumno: **Carlos Eduardo Rodriguez Perez**\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "1Dvh4O02inoS"
+      }
     },
     {
       "cell_type": "code",
